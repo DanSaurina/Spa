@@ -2,6 +2,7 @@
 
 import Home         from './views/pages/Home.js'
 import About        from './views/pages/About.js'
+import AwsS3        from './views/pages/awss3.js'
 import Error404     from './views/pages/Error404.js'
 import PostShow     from './views/pages/PostShow.js'
 import Register     from './views/pages/Register.js'
@@ -15,6 +16,7 @@ import Utils        from './services/Utils.js'
 const routes = {
     '/'             : Home
     , '/about'      : About
+	, '/awss3'      : AwsS3
     , '/p/:id'      : PostShow
     , '/register'   : Register
 };

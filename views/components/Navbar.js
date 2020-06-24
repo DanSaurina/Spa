@@ -23,6 +23,9 @@ let Navbar = {
                             <a class="navbar-item" href="/spa/#/about">
                                 About
                             </a>
+							<a class="navbar-item" href="/spa/#/awss3">
+                                AWSS3
+                            </a>
                             <a class="navbar-item" href="/spa/#/secret">
                                 Secret
                             </a>
