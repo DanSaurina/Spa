@@ -1,8 +1,12 @@
 let About = {
     render : async () => {
         let view =  /*html*/`
-            <section class="section">
-                <h1> About </h1>
+            <section class="section" align="center">
+                <h1> AWS Architecture </h1>
+                <a href="https://www.cloudtopia.org/">
+                <img alt="Services" src="/spa/images/aws-resources.png"
+                width=680" height="480">
+             </a>
             </section>
         `
         return view
