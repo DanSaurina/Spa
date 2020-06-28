@@ -18,6 +18,9 @@ let Navbar = {
                     <div id="navbarBasicExample" class="navbar-menu is-active" aria-expanded="false">
                         <div class="navbar-start">
                             <a class="navbar-item" href="/spa/#/">
+                                Start
+                            </a>
+                            <a class="navbar-item" href="/spa/#/home">
                                 Home
                             </a>
                             <a class="navbar-item" href="/spa/#/about">
@@ -26,15 +29,15 @@ let Navbar = {
 							<a class="navbar-item" href="/spa/#/awss3">
                                 AWSS3
                             </a>
-                            <a class="navbar-item" href="/spa/#/secret">
-                                Secret
+                            <a class="navbar-item" href="/spa/#/support">
+                                Support
                             </a>
                         </div>
                         <div class="navbar-end">
                             <div class="navbar-item">
                                 <div class="buttons">
                                     <a class="button is-primary" href="/spa/#/register">
-                                        <strong>Sign up</strong>
+                                        <strong>Sign Up/In</strong>
                                     </a>
                                     <a class="button is-light">
                                         Log in

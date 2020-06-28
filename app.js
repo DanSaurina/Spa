@@ -1,11 +1,13 @@
 "use strict";
 
+import Start        from './views/pages/Start.js'
 import Home         from './views/pages/Home.js'
 import About        from './views/pages/About.js'
 import AwsS3        from './views/pages/awss3.js'
 import Error404     from './views/pages/Error404.js'
 import PostShow     from './views/pages/PostShow.js'
 import Register     from './views/pages/Register.js'
+import Support     from './views/pages/support.js'
 
 import Navbar       from './views/components/Navbar.js'
 import Bottombar    from './views/components/Bottombar.js' 
@@ -14,11 +16,13 @@ import Utils        from './services/Utils.js'
 
 // List of supported routes. Any url other than these routes will throw a 404 error
 const routes = {
-    '/'             : Home
+    '/'             : Start
+    , '/home'       : Home
     , '/about'      : About
 	, '/awss3'      : AwsS3
     , '/p/:id'      : PostShow
     , '/register'   : Register
+    , '/support'    : Support
 };
 
 
