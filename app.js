@@ -2,7 +2,7 @@
 
 import Start        from './views/pages/Start.js'
 import Home         from './views/pages/Home.js'
-import About        from './views/pages/About.js'
+import About        from './views/pages/about.js'
 import AwsS3        from './views/pages/awss3.js'
 import Error404     from './views/pages/Error404.js'
 import PostShow     from './views/pages/PostShow.js'
